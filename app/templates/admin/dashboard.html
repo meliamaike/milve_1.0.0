@@ -1,0 +1,34 @@
+{% extends "admin/templates/admin_template.html" %}
+{% block title%}Milagros Veliz - Dashboard{% endblock %}
+
+{% block content %}
+  <div class="main-content">
+      <div class="col-md">
+          <section class="section">
+              <div class="section-header">
+                  <h1>Dashboard</h1>
+              </div>
+              <div class="section-body">
+                  <table class="table table-hover table-striped table-bordered text-center">
+                      <thead class="bg-primary">
+                          <tr>
+                              <th class="text-light">Nombre</th>
+                              <th class="text-light">Fecha</th>
+                              <th class="text-light">Servicio</th>
+                              <th class="text-light">Especialista</th>
+                          </tr>
+                      </thead>
+                      <tbody>
+                          <tr>
+                              <td>Juana</td>
+                              <td>5-9-2002</td>
+                              <td>Peeling facial</td>
+                              <td>Ana</td>
+                          </tr>
+                      </tbody>
+                  </table>
+              </div>
+          </section>
+      </div>
+  </div>
+{% endblock content %}
